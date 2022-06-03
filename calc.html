@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DMScreen - Encounter Calculator</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="header_text"><a href="index.html">DMScreen</a></h1>
+      <h2 class="header_text_calc">
+        <a href="calc.html">Encounter Calculator</a>
+      </h2>
+    </div>
+
+    <div class="center-container">
+      <div class="center-container-first-child left-container">
+        <div class="inputs">
+          <p class="left-container-first-child">Number of Players:</p>
+          <input
+            type="number"
+            class="nInput nPlayers left-container-first-child"
+          />
+        </div>
+        <div class="inputs">
+          <p class="left-container-first-child">Level of players:</p>
+          <input
+            type="number"
+            class="nInput playerLevels left-container-first-child"
+          />
+        </div>
+        <div class="inputs">
+          <button class="left-container-first-child calculate-button">
+            Calculate
+          </button>
+        </div>
+      </div>
+      <div class="center-container-first-child right-container">
+        <h3 class="right-container-first-child resultEasy">Easy:</h3>
+        <h3 class="right-container-first-child resultMedium">Medium:</h3>
+        <h3 class="right-container-first-child resultHard">Hard:</h3>
+        <h3 class="right-container-first-child resultDeadly">Deadly:</h3>
+      </div>
+    </div>
+    <script src="calc_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: #a06e10; /* #a06e10 */
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.header_text {
+  font-size: 3rem;
+  flex: 1;
+  align-self: center;
+}
+
+.header_text_calc {
+  font-size: 2rem;
+  flex: 1;
+  align-self: center;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  background-color: #be8541; /* #be8541  lighter tan color*/
+  height: 8vh;
+}
+
+.center-container {
+  display: flex;
+  height: 60vh;
+}
+
+.center-container-first-child {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0px 20px 20px 10vw;
+  align-self: center;
+}
+
+.inputs {
+  margin: 3rem 0 0 0;
+}
+
+.nInput {
+  width: 15rem;
+}
+
+.calculate-button {
+  width: 14rem;
+  height: 3rem;
+}
+
+.right-container-first-child {
+  flex: 1;
+  font-size: 1.8rem;
+  margin: 5rem 0 0 0;
+}
+
+/* HomePage-Unique-CSS */
+
+.center-container-home {
+  display: flex;
+  height: 90vh;
+}
+.center-container-home-first-child {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 5px, 5px, 5px, 5px;
+  align-self: center;
+}
+
+.conditions {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.condition-table-title {
+  text-align: center;
+}
+
+.conditions-table-2 {
+  display: flex;
+}
+
+.conditions-table-2-first-child {
+  flex: 1;
+}
+
+.conditions-2 {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.condition-info {
+  flex: 1;
+}
+
+.blinded-info {
+  display: none;
+}
+
+.charmed-info {
+  display: none;
+}
+
+.deafened-info {
+  display: none;
+}
+
+.frightened-info {
+  display: none;
+}
+
+.grappled-info {
+  display: none;
+}
+
+.incapacitated-info {
+  display: none;
+}
+
+.invisible-info {
+  display: none;
+}
+
+.paralyzed-info {
+  display: none;
+}
+
+.petrified-info {
+  display: none;
+}
+
+.poisoned-info {
+  display: none;
+}
+
+.prone-info {
+  display: none;
+}
+
+.restrained-info {
+  display: none;
+}
+
+.stunned-info {
+  display: none;
+}
+
+.unconscious-info {
+  display: none;
+}
+
+.exhaustion-info {
+  display: none;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.left-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-top {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.info-table-left {
+  flex: 1;
+}
+
+.info-table-right {
+  flex: 1;
+}
+
+.left-bottom {
+  flex: 1;
+  display: flex;
+}
+
+.info-titles {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.table-info {
+  flex: 1;
+  text-align: center;
+  display: none;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  text-align: left;
+  border: 1px solid #000000;
+  padding: 0.2rem;
+}
+
+table {
+  border-collapse: collapse;
+}
